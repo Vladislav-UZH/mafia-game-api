@@ -5,7 +5,7 @@ const { baseMiddlewares } = require("./middlewares/base.middleware");
 require("dotenv").config();
 const app = express();
 
-app.use(logger(formatsLogger));
+// app.use(logger(formatsLogger));
 app.use(cors());
 app.use(express.json());
 
